@@ -1,0 +1,48 @@
+@import 'assets/_colors.scss';
+@import 'assets/_animations.scss';
+@import 'assets/_breakpoints.scss';
+@import 'assets/_mixins.scss';
+@import 'assets/_variables.scss';
+@import 'assets/_z-index.scss';
+@import '~@wordpress/components/src/color-picker/style.scss';
+@import '~@wordpress/components/src/modal/style.scss';
+@import '~@wordpress/components/src/form-token-field/style.scss';
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.components-drop-zone {
+  width: 100%;
+  height: 200px;
+  background: rgba( 225, 225, 225, 0.5 );
+}
