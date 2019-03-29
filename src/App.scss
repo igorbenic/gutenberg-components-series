@@ -7,6 +7,7 @@
 @import '~@wordpress/components/src/color-picker/style.scss';
 @import '~@wordpress/components/src/modal/style.scss';
 @import '~@wordpress/components/src/form-token-field/style.scss';
+.screen-reader-text { display: none; }
 .App {
   text-align: center;
 }
